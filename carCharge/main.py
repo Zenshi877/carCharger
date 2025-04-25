@@ -10,7 +10,7 @@ def chargetime(x):
     Chargecon = chargeTime /60
     #It then converts the minutes to hours for simplification
     ChargeconHour = Chargecon / 60
-    #If the user enters a number that is not 0-199, the code will not calculate
+    #If the user enters a number that is not 0-99, the code will not calculate
     if x >= 100:
         print("Battery is already full.")
     if x <= 100:
